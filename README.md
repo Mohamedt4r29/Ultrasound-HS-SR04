@@ -81,7 +81,17 @@ The **disp_ctrl** waveform shows `clk`, `distance`, `seg`, and `an`. It displays
 ---
 
 ## **RTL Schema Section**
-*(To be filled later)*
+
+### **RTL Schema 1**
+![RTL Schema 1](https://github.com/Mohamedt4r29/Ultrasound-HS-SR04/blob/main/Ultrasonic-Distance-Measurement/schematics/RTL%20Schema1.png)
+
+### **RTL Schema 2**
+![RTL Schema 2](https://github.com/Mohamedt4r29/Ultrasound-HS-SR04/blob/main/Ultrasonic-Distance-Measurement/schematics/RTL%20Schema%202.png)
+
+### **RTL Schema 3**
+![RTL Schema 3](https://github.com/Mohamedt4r29/Ultrasound-HS-SR04/blob/main/Ultrasonic-Distance-Measurement/schematics/RTL%20Schema%203.png)
+
+---
 
 ## **Video Section**
 Here is a video showcasing the results of the **Ultrasonic Distance Measurement Project**:
