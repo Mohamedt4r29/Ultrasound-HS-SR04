@@ -3,9 +3,6 @@
 ## **Introduction**
 The Nexys A7 FPGA board controls the HC-SR04 ultrasonic sensor to measure distances. The HC-SR04 connects to the FPGA using VCC (5V), GND, Trig (to FPGA for a 10 µs pulse), and Echo (to Arduino UNO for signal reading). The Arduino sends the Echo signal to the FPGA. A 1kΩ resistor adjusts the Echo signal voltage, and a 470Ω resistor regulates the current. A breadboard and connecting wires link everything together, so the FPGA can calculate the distance and display it on a 7-segment display.
 
-## **Project Aim**
-*(To be filled later)*
-
 ## **Team Members**
 - **Mohamed**: Responsible for VHDL coding, hardware setup, and system integration.
 - **Filip**: Assisted with documentation, researched the HC-SR04 sensor, and helped with the theoretical foundation of the project.
@@ -96,6 +93,12 @@ The **disp_ctrl** waveform shows `clk`, `distance`, `seg`, and `an`. It displays
 ## **Video Section**
 Here is a video showcasing the results of the **Ultrasonic Distance Measurement Project**:
 
-[Video Results](#) *(Link to be added later)*
+[Video Results](https://youtu.be/eXIfZ1yKFlA?si=2fuqLFkn134EpJMW)
 
 ---
+
+## **References**
+- [Double Dabble Algorithm](https://en.wikipedia.org/wiki/Double_dabble)
+- [VHDL Labs - Counter Example](https://github.com/tomas-fryza/vhdl-labs/tree/master/lab5-counter)
+- [Binary to BCD: The Double Dabbler](https://nandland.com/binary-to-bcd-the-double-dabbler/)
+- [HC-SR04 Ultrasonic Sensor Datasheet](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf)
